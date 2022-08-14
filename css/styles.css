@@ -215,6 +215,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 10px 32px;
+  border: none;
 }
 .main-btn {
   margin-top: 30px;
@@ -509,6 +510,8 @@ mailing {
   background-color: #2f303a;
   width: 358px;
   height: 50px;
+  color: #ffffff;
+  padding-left: 16px;
 }
 .mailing-btn {
   font-weight: 700;
@@ -528,6 +531,7 @@ mailing {
   padding-left: 28px;
   width: 200px;
   height: 50px;
+  border: none;
 }
 
 .social-connect-heading {
@@ -734,6 +738,7 @@ mailing {
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
   color: #757575;
+  
 }
 .modal-input {
   width: 100%;
@@ -741,17 +746,18 @@ mailing {
   background: #ffffff;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  margin-top: 4px;
   padding-left: 30px;
   outline: transparent;
   transition: border-color 300ms;
 }
 
 .modal-field {
-  margin-top: 12px;
+  margin-top: 10px;
 }
+.modal-field:first-child {margin-top: 12px;}
 .input-wrap {
   position: relative;
+  margin-top: 4px;
 }
 .input-icon {
   position: absolute;
@@ -771,7 +777,6 @@ mailing {
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
-margin-top: 4px;
 resize: none;
 padding: 15px;
 }
@@ -792,6 +797,7 @@ padding: 15px;
   border-radius: 4px;
   margin-top: 30px;
   margin-left: 124px;
+  border: none;
 
 }
 .policy-text {margin-top: 20px;
